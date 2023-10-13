@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&family=Outfit:wght@400;700&family=Poppins:ital,wght@0,400;0,700;0,800;1,400;1,700;1,800&display=swap');
+
+:root {
+    --orange: hsl(26, 100%, 55%);
+    --pale-orange: hsl(25, 100%, 94%);
+    --very-dark-blue: hsl(220, 13%, 13%);
+    --dark-greyish-blue: hsl(219, 9%, 45%);
+    --greyish-blue: hsl(220, 14%, 75%);
+    --light-greyish-blue: hsl(223, 64%, 98%);
+    --white: hsl(0, 0%, 100%);
+    --partially-black: hsl(0, 0%, 0%);
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Kumbh Sans", sans-serif;
+}
+
+h1,
+h2 {
+    margin: 0;
+}
+
+.nav {
+    padding: 1.2em;
+}
+
+.nav-list {
+    display: none;
+    width: 65%;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: var(--white);
+    padding: 1.2em;
+    font-weight: 700;
+}
+
+.nav-list img {
+    padding-bottom: 2em;
+}
+
+.container {
+    width: 100%;
+}
+
+.menu-logo img:nth-child(1) {
+    margin-right: 0.8em;
+    height: 14px;
+}
+
+.menu-logo img:nth-child(2),
+.cart-profile img:nth-child(1) {
+    height: 16px;
+}
+
+.cart-profile img:nth-child(2) {
+    margin-left: 0.8em;
+    height: 20px;
+}
+
+.product-images {
+    background: white;
+    box-sizing: border-box;
+}
+
+.img {
+    max-width: 100%;
+    padding-bottom: 80%;
+    background-image: url("./images/image-product-1.jpg"); /** <-- For the demo **/
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.product-images img {
+    max-width: 100%;
+    width: auto;
+    height: auto;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+}
