@@ -22,7 +22,8 @@ body {
 }
 
 h1,
-h2 {
+h2,
+p {
     margin: 0;
 }
 
@@ -87,4 +88,96 @@ h2 {
 .row {
     display: flex;
     justify-content: space-between;
+}
+
+.product-details {
+    padding: 1.3em;
+    padding-bottom: 5em;
+}
+
+.company-name {
+    font-size: 0.6rem;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: var(--orange);
+    padding-bottom: 0.9em;
+}
+
+.product-details h2 {
+    font-size: 1.3rem;
+    color: var(--very-dark-blue);
+    padding-bottom: 0.9em;
+}
+
+.description {
+    font-size: 0.75rem;
+    color: var(--dark-greyish-blue);
+    padding-bottom: 1.8em;
+}
+
+.pricing-section {
+    align-items: center;
+    margin-bottom: 2em;
+}
+
+.price {
+    font-weight: 700;
+    color: var(--very-dark-blue);
+    font-size: 1.4em;
+}
+
+.saving {
+    display: flex;
+    background-color: var(--pale-orange);
+    align-items: center;
+    align-self: center;
+    padding-inline: 0.45em;
+    border-radius: 5px;
+    height: 20px;
+    margin-left: 0.4em;
+}
+
+.saving p {
+    color: var(--orange);
+    font-weight: 700;
+    font-size: 0.8em;
+}
+
+.original-price {
+    color: var(--dark-greyish-blue);
+    text-decoration: line-through;
+    font-weight: 700;
+    font-size: 0.8em;
+}
+
+.item-count {
+    background-color: var(--light-greyish-blue);
+    align-items: center;
+    padding: 0.4em 1em;
+    border-radius: 3px;
+    font-weight: 700;
+    margin-bottom: 1.2em;
+}
+
+.minus,
+.plus {
+    color: var(--orange);
+}
+
+.btn {
+    display: flex;
+    background-color: var(--orange);
+    align-items: center;
+    justify-content: center;
+    padding: 0.4em 1em;
+    border-radius: 3px;
+    text-align: center;
+}
+
+.btn a {
+    margin-left: 0.8em;
+    text-decoration: none;
+    color: var(--white);
+    font-weight: 700;
+    font-size: 0.8rem;
 }
